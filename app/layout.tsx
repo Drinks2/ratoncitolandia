@@ -14,8 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Ratoncitolandia — Para la Reina",
-  description:
-    "Ratoncitolandia: un rincón mágico.",
+  description: "Ratoncitolandia.",
 };
 
 export default function RootLayout({
