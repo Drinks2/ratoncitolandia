@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Landing Next.js",
-  description: "Landing de una sola página con Next.js, React y Vercel.",
+  title: "Ratoncitolandia — Para la Reina",
+  description:
+    "Ratoncitolandia: un rincón mágico para la Reina de Ratoncitolandia.",
 };
 
 export default function RootLayout({
@@ -23,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning>
       <body
         suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
